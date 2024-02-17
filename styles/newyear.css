@@ -1,0 +1,136 @@
+/*------------------ common shared styles ----------------*/
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap") * {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  min-width: 1320px;
+  /* padding: 0px 140px; */
+  /* margin: 50px 220px; */
+}
+/*------------------ header related styles --------------------*/
+.header-container {
+  background-image: url("../resources/Banner\ Image.png");
+  height: 570px;
+  /* width: 1320px; */
+  border-radius: 16px;
+  background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url("../resources/Banner\ Image.png");
+  background-size: contain;
+  margin: 50px 140px;
+  background-repeat: no-repeat;
+}
+
+.header-intro {
+  color: #fff;
+  text-align: center;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  padding-top: 175px;
+  /* padding-bottom: 0; */
+}
+.header-title {
+  color: #fff;
+  text-align: center;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 900;
+  padding-bottom: 215px;
+}
+
+/*-------------------- holiday-related-styles ------------------*/
+.holiday-section {
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.holiday-title {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 88px;
+  font-weight: 700;
+  margin-top: 120px;
+  margin-bottom: 48px;
+}
+.holiday-description {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.holiday-category {
+  color: #070211;
+  text-align: center;
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+  margin-top: 10px;
+  margin-bottom: 48px;
+}
+.holiday-image {
+  width: 802.9px;
+  height: 500px;
+  padding-left: 258px;
+  padding-bottom: 120px;
+}
+
+/* welcome-party-related style */
+.welcome-party-container {
+  background-image: url("../resources/Banner\ Image.png");
+  height: 520px;
+  /* width: 1320px; */
+  border-radius: 16px;
+  background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url("../resources/Vectorrr.png");
+  background-size: contain;
+  margin: 50px 140px;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.greeting-to-party {
+  color: #fff;
+  font-size: 64px;
+  font-weight: 900;
+  text-align: center;
+  padding: 0px;
+  padding-bottom: 0;
+  margin-top: 0;
+  /* margin-left: 10px; */
+  /* padding-bottom: 0px; */
+  /* gap: 5px; */
+}
+.party-description {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 18px 30px;
+  font-weight: 400;
+  padding-top: 0px;
+  margin-left: 50px;
+}
+#join-btn {
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+  margin-left: 128px;
+  border-radius: 0;
+  background-color: #070211;
+}
+.welcome-party-image {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  margin-top: 40px;
+  padding-top: 68px;
+  padding-bottom: 68px;
+}
